@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -10,6 +9,9 @@ import { RecordarContraComponent } from './recordar-contra/recordar-contra.compo
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ProductosComponent } from './productos/productos.component';
 import { RegistrarComponent } from './registrar/registrar.component';
+import { PrincipalComponent } from './principal/principal.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
+
 
 @NgModule({
   declarations: [
@@ -18,13 +20,17 @@ import { RegistrarComponent } from './registrar/registrar.component';
     DashboardComponent,
     ContactenosComponent,
     EditarComponent,
+    
+    
     RecordarContraComponent,
     GaleriaComponent,
     ProductosComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    PrincipalComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
