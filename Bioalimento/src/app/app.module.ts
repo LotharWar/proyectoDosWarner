@@ -5,12 +5,12 @@ import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ContactenosComponent } from './contactenos/contactenos.component';
 import { EditarComponent } from './editar/editar.component';
-import { RecordarContraComponent } from './recordar-contra/recordar-contra.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ProductosComponent } from './productos/productos.component';
 import { RegistrarComponent } from './registrar/registrar.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { RecordarContraComponent } from './recordar-contra/recordar-contra.component';
 
 
 @NgModule({
@@ -20,7 +20,6 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     DashboardComponent,
     ContactenosComponent,
     EditarComponent,
-    
     
     RecordarContraComponent,
     GaleriaComponent,
