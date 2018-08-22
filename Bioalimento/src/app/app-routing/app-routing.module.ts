@@ -11,7 +11,7 @@ import { PrincipalComponent } from '../principal/principal.component';
 
 const routes: Routes = [
 {path:'', component: PrincipalComponent},
-{path:'Dashboard', component: DashboardComponent},
+{path:'dashboard', component: DashboardComponent},
 {path:'principal', component: PrincipalComponent},
 
 
